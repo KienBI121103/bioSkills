@@ -1,6 +1,6 @@
 {
   "name": "hi-c-analysis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Analyze Hi-C and chromosome-conformation-capture data: read-pair processing and library QC, cooler matrices, ICE/KR balancing and distance-decay normalization, A/B compartments, TADs, loops, visualization, differential comparison, and protein-directed 3C (HiChIP/PLAC-seq/Capture Hi-C) (9 skills)",
   "author": {
     "name": "GPTomics",

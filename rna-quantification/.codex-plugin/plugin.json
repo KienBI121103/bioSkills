@@ -1,6 +1,6 @@
 {
   "name": "rna-quantification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quantify gene and transcript expression from RNA-seq data (4 skills)",
   "author": {
     "name": "GPTomics",

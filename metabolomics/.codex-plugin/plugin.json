@@ -1,6 +1,6 @@
 {
   "name": "metabolomics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decision-grade LC-MS and GC-MS metabolomics, from raw data to biological interpretation (9 skills)",
   "author": {
     "name": "GPTomics",

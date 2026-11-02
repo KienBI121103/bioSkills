@@ -1,6 +1,6 @@
 {
   "name": "sequence-io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sequence file input/output operations using Biopython's Bio.SeqIO module (9 skills)",
   "author": {
     "name": "GPTomics",

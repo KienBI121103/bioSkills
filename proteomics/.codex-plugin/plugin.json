@@ -1,6 +1,6 @@
 {
   "name": "proteomics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mass spectrometry-based bottom-up proteomics, from raw MS files and search-engine output through identification, quantification, and differential abundance, with DIA, PTM, and quality-control coverage (9 skills)",
   "author": {
     "name": "GPTomics",

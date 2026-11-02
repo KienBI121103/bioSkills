@@ -1,6 +1,6 @@
 {
   "name": "chemoinformatics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Computational chemistry for drug discovery covering molecular representations, standardization, conformer generation, descriptor calculation, similarity / shape / pharmacophore search, virtual screening (classical + ML), pose validation, free-energy calculations, QSAR, generative design, retrosynthesis, covalent inhibitor design, and PROTAC degrader design (20 skills)",
   "author": {
     "name": "GPTomics",

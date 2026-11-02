@@ -1,6 +1,6 @@
 {
   "name": "pathway-analysis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Functional enrichment of gene lists and ranked gene vectors against curated gene sets (GO, KEGG, Reactome, WikiPathways, MSigDB) with R/Bioconductor: over-representation analysis (ORA), Gene Set Enrichment Analysis (GSEA), and pathway-topology analysis (SPIA) (6 skills)",
   "author": {
     "name": "GPTomics",

@@ -1,6 +1,6 @@
 {
   "name": "differential-expression",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Postdoc-grade differential expression analysis of bulk RNA-seq count data with DESeq2, edgeR, and limma-voom (6 skills)",
   "author": {
     "name": "GPTomics",

@@ -1,6 +1,6 @@
 {
   "name": "genome-engineering",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Design CRISPR edits and their safety checks: guide RNAs for knockout, off-target prediction, base editing (CBE/ABE), prime editing (pegRNAs), and HDR donor templates for knock-ins (5 skills)",
   "author": {
     "name": "GPTomics",

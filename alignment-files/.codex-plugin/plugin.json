@@ -1,6 +1,6 @@
 {
   "name": "alignment-files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Working with SAM/BAM/CRAM alignment files using samtools and pysam (10 skills)",
   "author": {
     "name": "GPTomics",

@@ -1,6 +1,6 @@
 {
   "name": "genome-intervals",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Genomic interval algebra and signal tracks: coordinate systems, set operations, overlap-significance testing, GTF/GFF gene-model parsing, proximity queries, coverage, and bedGraph/bigWig track generation with bedtools/pybedtools/pyranges, gffutils, deepTools, and pyBigWig (8 skills)",
   "author": {
     "name": "GPTomics",

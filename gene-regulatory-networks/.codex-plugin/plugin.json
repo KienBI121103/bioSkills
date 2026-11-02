@@ -1,6 +1,6 @@
 {
   "name": "gene-regulatory-networks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Infer and analyze gene regulatory networks from expression and chromatin data (6 skills)",
   "author": {
     "name": "GPTomics",

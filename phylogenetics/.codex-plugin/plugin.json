@@ -1,6 +1,6 @@
 {
   "name": "phylogenetics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Phylogenetic tree analysis covering I/O, manipulation, visualization, distance-based methods, maximum likelihood inference, Bayesian analysis, divergence time estimation, and coalescent species tree methods (8 skills)",
   "author": {
     "name": "GPTomics",

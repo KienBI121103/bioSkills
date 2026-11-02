@@ -1,6 +1,6 @@
 {
   "name": "phasing-imputation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Statistical haplotype phasing and reference-panel genotype imputation for array and sequence data, with Beagle, SHAPEIT5, IMPUTE5, Minimac4, and GLIMPSE2 (4 skills)",
   "author": {
     "name": "GPTomics",

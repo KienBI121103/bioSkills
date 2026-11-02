@@ -21,7 +21,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 MARKETPLACE = "bioskills"
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 OWNER = {"name": "KienBI121103", "url": "https://github.com/KienBI121103/bioSkills"}
 AUTHOR = {"name": "GPTomics", "url": "https://github.com/GPTomics/bioSkills"}
 REPO = "https://github.com/KienBI121103/bioSkills"
@@ -97,7 +97,7 @@ def main():
         "description": all_desc,
         "version": VERSION,
         "category": "bioinformatics",
-        "skills": [f"./{c.name}" for c in cats],
+        "skills": [f"./{c.name}/{s.parent.name}" for c in cats for s in sorted(c.glob("*/SKILL.md"))],
     }]
     codex_plugins = [codex_entry(MARKETPLACE, "./")]
     write_json(ROOT / ".codex-plugin/plugin.json",
@@ -112,7 +112,8 @@ def main():
             "description": desc,
             "version": VERSION,
             "category": "bioinformatics",
-            "skills": ["./"],
+            # Explicit skill folders also work with importers that reject the plugin root.
+            "skills": [f"./{s.parent.name}" for s in sorted(c.glob("*/SKILL.md"))],
         })
         codex_plugins.append(codex_entry(c.name, f"./{c.name}"))
         # Codex does not scan the plugin root itself, so list each skill folder

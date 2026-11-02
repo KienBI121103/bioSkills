@@ -1,6 +1,6 @@
 {
   "name": "copy-number",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect, interpret, and characterize copy number variants from whole-genome, exome, and targeted sequencing (11 skills)",
   "author": {
     "name": "GPTomics",

@@ -1,6 +1,6 @@
 {
   "name": "small-rna-seq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Analyze small RNA sequencing data across all classes - miRNA, isomiRs, tRNA-derived fragments (tRFs), piRNA, and rRNA/snoRNA-derived species - for preprocessing, discovery, quantification, differential expression, and target prediction (6 skills)",
   "author": {
     "name": "GPTomics",

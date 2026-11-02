@@ -1,6 +1,6 @@
 {
   "name": "imaging-mass-cytometry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Spatial proteomics analysis from imaging mass cytometry (IMC) and multiplexed ion beam imaging (MIBI) data, treating pixels as the ion counts they are, segmentation as the dominant error source, and the patient as the experimental unit (7 skills)",
   "author": {
     "name": "GPTomics",

@@ -1,6 +1,6 @@
 {
   "name": "long-read-sequencing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Analysis of Oxford Nanopore and PacBio long-read data: basecalling, QC, alignment, polishing, small-variant and structural-variant calling, read-backed phasing, direct methylation detection, and full-length isoform analysis (9 skills)",
   "author": {
     "name": "GPTomics",

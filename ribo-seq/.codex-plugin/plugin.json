@@ -1,6 +1,6 @@
 {
   "name": "ribo-seq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Analyze ribosome profiling (Ribo-seq) data to study translation at codon resolution: preprocessing with UMI handling, periodicity QC and P-site calibration, ORF detection, translation efficiency, ribosome stalling, and initiation-site mapping (6 skills)",
   "author": {
     "name": "GPTomics",

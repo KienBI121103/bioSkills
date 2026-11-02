@@ -1,6 +1,6 @@
 {
   "name": "temporal-genomics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Analyze temporal patterns in omics time-series data, with the postdoc-level guardrails that make the calls trustworthy: sampling-design constraints (Nyquist floor, >=2 cycles, evenness), the multiple-testing and null-model pitfalls specific to rhythm/periodicity screens, and the causal-inference ceiling of bulk temporal networks (6 skills)",
   "author": {
     "name": "GPTomics",

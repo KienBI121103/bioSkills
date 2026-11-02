@@ -1,6 +1,6 @@
 {
   "name": "epitranscriptomics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detection, quantification, differential analysis, and visualisation of RNA modifications (primarily m6A / N6-methyladenosine, with secondary coverage of m6Am and m5C) from MeRIP-seq / m6A-seq antibody-IP data and Oxford Nanopore direct-RNA-sequencing (ONT DRS) signal data (5 skills)",
   "author": {
     "name": "GPTomics",

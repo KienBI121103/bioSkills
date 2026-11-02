@@ -1,6 +1,6 @@
 {
   "name": "comparative-genomics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Comparative genomics across species for inferring evolutionary history, gene-family dynamics, structural rearrangements, polyploidy, horizontal gene transfer, introgression, positive selection, and ancestral state reconstruction (13 skills)",
   "author": {
     "name": "GPTomics",

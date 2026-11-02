@@ -1,6 +1,6 @@
 {
   "name": "population-genetics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decision-grade population and statistical genetics from genotypes: allele-aware data management and QC, linkage disequilibrium, population structure, single-variant and rare-variant association, and selection scans (7 skills)",
   "author": {
     "name": "GPTomics",

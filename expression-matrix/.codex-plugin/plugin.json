@@ -1,6 +1,6 @@
 {
   "name": "expression-matrix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Postdoc-grade ingestion, ID mapping, metadata joining, normalization, and sparse handling for RNA-seq count matrices (bulk and single-cell) (5 skills)",
   "author": {
     "name": "GPTomics",

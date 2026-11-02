@@ -1,6 +1,6 @@
 {
   "name": "alternative-splicing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Alternative splicing analysis for short-read and long-read RNA-seq, covering event quantification, differential splicing, isoform switching with functional consequences, visualization, sequencing QC, single-cell splicing, deep-learning splice variant prediction, outlier detection in rare disease, and full-isoform analysis from PacBio/ONT long reads (9 skills)",
   "author": {
     "name": "GPTomics",

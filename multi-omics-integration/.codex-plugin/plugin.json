@@ -1,6 +1,6 @@
 {
   "name": "multi-omics-integration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Joint statistical integration of two or more BULK omics blocks on a shared sample axis: deciding the integration strategy, MOFA2 unsupervised factor discovery, mixOmics supervised multi-block discriminant analysis (DIABLO/sPLS/MINT), Similarity Network Fusion for patient stratification, and cross-omic harmonization (5 skills)",
   "author": {
     "name": "GPTomics",

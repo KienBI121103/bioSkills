@@ -1,6 +1,6 @@
 {
   "name": "atac-seq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decision-grade ATAC-seq workflows: peak calling (MACS, Genrich, HMMRATAC), ENCODE 4 quality control with citation-anchored thresholds, fixed-width consensus peakset construction (Corces 2018 iterative overlap), differential accessibility across replicate-count regimes (DiffBind, csaw, DESeq2, edgeR), TF footprinting with Tn5 bias correction (TOBIAS, HINT-ATAC, scprinter), nucleosome positioning, motif accessibility variability (chromVAR), single-cell ATAC (Signac/ArchR/SnapATAC2), and cis-regulatory co-accessibility (Cicero, SCENIC+) (12 skills)",
   "author": {
     "name": "GPTomics",

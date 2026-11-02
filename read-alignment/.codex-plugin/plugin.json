@@ -1,6 +1,6 @@
 {
   "name": "read-alignment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Map short reads to a reference genome with the right aligner for the assay, on a correctly-chosen reference: DNA alignment with bwa-mem2/Bowtie2 and RNA-seq spliced alignment with STAR/HISAT2 (4 skills)",
   "author": {
     "name": "GPTomics",

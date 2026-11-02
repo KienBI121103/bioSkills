@@ -1,6 +1,6 @@
 {
   "name": "clinical-databases",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decision-grade clinical and population genetics database skills covering variant interpretation, ACMG/AMP classification, pharmacogenomics, polygenic risk, somatic signatures, TMB / MSI ICI biomarkers, and HLA typing (12 skills)",
   "author": {
     "name": "GPTomics",

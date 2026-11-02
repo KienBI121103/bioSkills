@@ -1,6 +1,6 @@
 {
   "name": "spatial-transcriptomics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Analyze spatial transcriptomics and multiplexed-imaging data while respecting the one fork that decides the whole pipeline: the platform class (12 skills)",
   "author": {
     "name": "GPTomics",

@@ -1,6 +1,6 @@
 {
   "name": "single-cell",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Single-cell genomics with Seurat (R) and Scanpy (Python) (17 skills)",
   "author": {
     "name": "GPTomics",

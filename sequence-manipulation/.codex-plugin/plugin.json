@@ -1,6 +1,6 @@
 {
   "name": "sequence-manipulation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Working with sequence data programmatically using Biopython's Bio.Seq and Bio.SeqUtils modules (7 skills)",
   "author": {
     "name": "GPTomics",

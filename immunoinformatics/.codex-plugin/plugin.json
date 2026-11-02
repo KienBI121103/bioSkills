@@ -1,6 +1,6 @@
 {
   "name": "immunoinformatics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Computational immunology: MHC class I and class II binding/presentation, tumor neoantigen identification and immunogenicity ranking, B/T-cell epitope prediction, and TCR-antigen specificity for vaccine design and cancer immunotherapy (6 skills)",
   "author": {
     "name": "GPTomics",

@@ -1,6 +1,6 @@
 {
   "name": "clip-seq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Map and analyze protein-RNA interactions from CLIP-seq family methods (eCLIP, iCLIP, iCLIP2, iCLIP3, irCLIP, PAR-CLIP, FLASH, miCLIP2, STAMP, chimeric eCLIP) (12 skills)",
   "author": {
     "name": "GPTomics",

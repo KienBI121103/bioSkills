@@ -1,6 +1,6 @@
 {
   "name": "metagenomics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read-based taxonomic and functional profiling of shotgun metagenomes (8 skills)",
   "author": {
     "name": "GPTomics",

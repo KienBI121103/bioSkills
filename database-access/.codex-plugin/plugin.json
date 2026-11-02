@@ -1,6 +1,6 @@
 {
   "name": "database-access",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Programmatic access to NCBI, EMBL-EBI (Ensembl, ENA, UniProt, BioStudies), and interaction-database resources (15 skills)",
   "author": {
     "name": "GPTomics",

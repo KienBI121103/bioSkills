@@ -1,6 +1,6 @@
 {
   "name": "epidemiological-genomics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pathogen surveillance and outbreak genomics from raw reads to public-health-actionable output (5 skills)",
   "author": {
     "name": "GPTomics",

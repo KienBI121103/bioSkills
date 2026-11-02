@@ -1,6 +1,6 @@
 {
   "name": "read-qc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read quality control and preprocessing - the first step in any NGS workflow (7 skills)",
   "author": {
     "name": "GPTomics",

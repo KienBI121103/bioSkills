@@ -1,6 +1,6 @@
 {
   "name": "genome-annotation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Annotate assembled genomes with repeat masking, gene prediction (prokaryotic and eukaryotic), non-coding RNA detection, functional assignment, completeness QC, and annotation transfer between assemblies (7 skills)",
   "author": {
     "name": "GPTomics",

@@ -1,6 +1,6 @@
 {
   "name": "restriction-analysis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Restriction enzyme analysis using Biopython Bio.Restriction (5 skills)",
   "author": {
     "name": "GPTomics",

@@ -1,6 +1,6 @@
 {
   "name": "chip-seq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Postdoc-grade ChIP-seq analysis covering peak calling, QC, differential binding, motif discovery, peak annotation, super-enhancers, visualization, CUT&RUN/CUT&Tag, spike-in normalization, chromatin state segmentation, deep-learning models, and allele-specific binding (12 skills)",
   "author": {
     "name": "GPTomics",

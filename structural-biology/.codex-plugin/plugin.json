@@ -1,6 +1,6 @@
 {
   "name": "structural-biology",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Protein structure analysis using Biopython's Bio.PDB module and modern prediction tools (10 skills)",
   "author": {
     "name": "GPTomics",

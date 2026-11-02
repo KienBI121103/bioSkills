@@ -1,6 +1,6 @@
 {
   "name": "tcr-bcr-analysis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Analyze T-cell receptor (TCR) and B-cell receptor (BCR) repertoires from bulk or single-cell sequencing data for immunology research, vaccine development, and cancer immunotherapy (6 skills)",
   "author": {
     "name": "GPTomics",

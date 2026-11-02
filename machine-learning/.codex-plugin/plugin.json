@@ -1,6 +1,6 @@
 {
   "name": "machine-learning",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decision-grade machine learning for omics and biomedical data: feature selection, classification, survival prediction, model interpretation, validation, and single-cell reference mapping, with the p>>n, leakage, calibration, and correlated-feature traps made explicit (6 skills)",
   "author": {
     "name": "GPTomics",

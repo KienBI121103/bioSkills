@@ -1,6 +1,6 @@
 {
   "name": "genome-assembly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Assemble genomes from short-read, long-read, and PacBio HiFi data, then polish, scaffold, decontaminate, and quality-assess the result (9 skills)",
   "author": {
     "name": "GPTomics",

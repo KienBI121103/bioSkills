@@ -1,6 +1,6 @@
 {
   "name": "microbiome",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Amplicon (16S rRNA / ITS / 18S) sequencing analysis from demultiplexed reads to compositional differential abundance: DADA2 ASV inference, taxonomy assignment against SILVA/GTDB/Greengenes2/UNITE, alpha/beta diversity, compositional differential abundance, and PICRUSt2 functional prediction (6 skills)",
   "author": {
     "name": "GPTomics",

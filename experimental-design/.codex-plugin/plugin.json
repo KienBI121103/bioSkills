@@ -1,6 +1,6 @@
 {
   "name": "experimental-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Skills for designing genomics experiments so that statistical inference is valid by construction: choosing the experimental unit, randomizing and blocking, balancing technical variation, powering the study, sizing the sample, and controlling error rates across thousands of tests (5 skills)",
   "author": {
     "name": "GPTomics",

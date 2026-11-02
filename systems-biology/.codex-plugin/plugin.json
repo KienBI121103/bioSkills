@@ -1,6 +1,6 @@
 {
   "name": "systems-biology",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Constraint-based / genome-scale metabolic modeling: draft reconstruction from genomes, curation and gap-filling, FBA/FVA flux prediction, gene essentiality, context-specific model building, multi-species community modeling, and computational strain design (7 skills)",
   "author": {
     "name": "GPTomics",

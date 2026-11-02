@@ -1,6 +1,6 @@
 {
   "name": "causal-genomics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Infer causal relationships from genetic association data using Mendelian randomization, colocalization, fine-mapping, mediation, heritability partitioning, transcriptome-wide association, and drug-target validation with cis-pQTL MR (11 skills)",
   "author": {
     "name": "GPTomics",

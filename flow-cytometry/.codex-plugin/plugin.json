@@ -1,6 +1,6 @@
 {
   "name": "flow-cytometry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flow, spectral, and mass cytometry (CyTOF) analysis from raw FCS files to differentially abundant cell populations (8 skills)",
   "author": {
     "name": "GPTomics",

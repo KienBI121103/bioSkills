@@ -1,6 +1,6 @@
 {
   "name": "crispr-screens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decision-grade analysis of pooled and single-cell CRISPR screens (15 skills)",
   "author": {
     "name": "GPTomics",

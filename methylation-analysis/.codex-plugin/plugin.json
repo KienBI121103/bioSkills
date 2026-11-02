@@ -1,6 +1,6 @@
 {
   "name": "methylation-analysis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DNA methylation analysis across both major platforms: short-read bisulfite/EM-seq sequencing (WGBS, RRBS, PBAT) and Illumina Infinium arrays (450K, EPIC, EPICv2) (10 skills)",
   "author": {
     "name": "GPTomics",

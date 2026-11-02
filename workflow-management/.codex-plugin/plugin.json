@@ -1,6 +1,6 @@
 {
   "name": "workflow-management",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Workflow engines for authoring bioinformatics pipelines (5 skills)",
   "author": {
     "name": "GPTomics",

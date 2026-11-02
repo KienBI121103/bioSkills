@@ -1,6 +1,6 @@
 {
   "name": "rna-structure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Predict and analyze RNA secondary structures, search for non-coding RNA families, interpret experimental structure probing data, and validate conserved structures by evolutionary covariation (4 skills)",
   "author": {
     "name": "GPTomics",

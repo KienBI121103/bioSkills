@@ -1,6 +1,6 @@
 {
   "name": "clinical-biostatistics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Postdoc/regulatory-grade statistical analysis methods for clinical trial data, spanning CDISC SDTM/ADaM data preparation, ICH E9(R1) estimand framework, FDA 2023 covariate adjustment, modern multiplicity (Bretz-Maurer graphical), survival analysis under non-PH (RMST, Fine-Gray vs cause-specific Cox), missing-data sensitivity (MMRM, reference-based MI, Permutt tipping point), adaptive designs (ICH E20 draft, BOIN, Mehta-Pocock), and Bayesian platform trials (I-SPY 2, EXNEX, MAP priors) (12 skills)",
   "author": {
     "name": "GPTomics",
