@@ -49,6 +49,9 @@ __pycache__
 *.pyc
 *.*.pyc
 
+# Portable packaging build artifacts
+dist/
+
 # Claude Code support
 CLAUDE.md
 AGENTS.md

@@ -80,6 +80,19 @@ Or browse with `/plugins` inside Codex. Start a new session after installing.
 
 **Maintainers**: after adding or removing a category or skill, run `python3 build-plugins.py` to regenerate the plugin manifests.
 
+### Portable uploads for other agent platforms
+
+Use the [portable packaging standard](PACKAGING.md) to export plugin ZIPs or individual Agent Skills, including their examples and references:
+
+```bash
+python3 -m pip install -r requirements-packaging.txt
+python3 package_skills.py --check
+python3 package_skills.py --categories sequence-io,single-cell --output dist/bioskills-selected.zip
+python3 package_skills.py --skill bio-read-sequences --output dist/bio-read-sequences.zip
+```
+
+Choose a plugin ZIP for plugin import screens and an individual-skill ZIP for single-skill uploads. Imported copies may require rebuilding and re-importing to receive updates.
+
 ### Claude Code
 
 ```bash
