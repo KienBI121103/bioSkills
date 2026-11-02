@@ -1,0 +1,37 @@
+{
+  "name": "clip-seq",
+  "version": "1.0.0",
+  "description": "Map and analyze protein-RNA interactions from CLIP-seq family methods (eCLIP, iCLIP, iCLIP2, iCLIP3, irCLIP, PAR-CLIP, FLASH, miCLIP2, STAMP, chimeric eCLIP) (12 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./ago-clip-mirna-targets/",
+    "./binding-site-annotation/",
+    "./clip-alignment/",
+    "./clip-deep-learning/",
+    "./clip-motif-analysis/",
+    "./clip-peak-calling/",
+    "./clip-preprocessing/",
+    "./clip-qc/",
+    "./crosslink-site-detection/",
+    "./differential-clip/",
+    "./m6a-clip/",
+    "./stamp-antibody-free/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Clip Seq",
+    "shortDescription": "Map and analyze protein-RNA interactions from CLIP-seq family methods (eCLIP, iCLIP, iCLIP2, iCLIP3, irCLIP, PAR-CLIP, F",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

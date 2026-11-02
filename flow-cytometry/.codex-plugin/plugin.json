@@ -1,0 +1,33 @@
+{
+  "name": "flow-cytometry",
+  "version": "1.0.0",
+  "description": "Flow, spectral, and mass cytometry (CyTOF) analysis from raw FCS files to differentially abundant cell populations (8 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./bead-normalization/",
+    "./clustering-phenotyping/",
+    "./compensation-transformation/",
+    "./cytometry-qc/",
+    "./differential-analysis/",
+    "./doublet-detection/",
+    "./fcs-handling/",
+    "./gating-analysis/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Flow Cytometry",
+    "shortDescription": "Flow, spectral, and mass cytometry (CyTOF) analysis from raw FCS files to differentially abundant cell populations (8 sk",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

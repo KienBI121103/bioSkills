@@ -1,0 +1,45 @@
+{
+  "name": "data-visualization",
+  "version": "1.0.0",
+  "description": "Publication-quality data visualization for bioinformatics at PhD/post-doc decision-grade depth (20 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./circos-plots/",
+    "./color-palettes/",
+    "./dimensionality-reduction-plots/",
+    "./distribution-plots/",
+    "./flow-and-transition-plots/",
+    "./forest-funnel-plots/",
+    "./genome-tracks/",
+    "./ggplot2-fundamentals/",
+    "./heatmaps-clustering/",
+    "./interactive-visualization/",
+    "./lollipop-protein-maps/",
+    "./manhattan-qq-locuszoom/",
+    "./matplotlib-fundamentals/",
+    "./multipanel-figures/",
+    "./network-visualization/",
+    "./oncoprint-mutation-matrices/",
+    "./sequence-logos/",
+    "./statistical-annotation/",
+    "./upset-plots/",
+    "./volcano-and-ma-plots/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Data Visualization",
+    "shortDescription": "Publication-quality data visualization for bioinformatics at PhD/post-doc decision-grade depth (20 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

@@ -52,6 +52,34 @@ conda install -c bioconda samtools bcftools blast minimap2 bedtools \
 
 ## Installation
 
+### Plugin install (Claude Code and Codex CLI)
+
+Every category is its own plugin, so you can install only what you need. Installing a few categories is recommended: the all-in-one `bioskills` plugin loads all 561 skill descriptions into every session (~100k tokens on Claude Code).
+
+**Claude Code** (inside a session):
+
+```
+/plugin marketplace add KienBI121103/bioSkills
+/plugin install single-cell@bioskills
+/plugin install variant-calling@bioskills
+```
+
+Or from a shell: `claude plugin marketplace add KienBI121103/bioSkills && claude plugin install single-cell@bioskills`. Skills are invoked as `/<category>:<skill>`, e.g. `/single-cell:bio-single-cell-clustering`.
+
+**Codex CLI**:
+
+```bash
+codex plugin marketplace add KienBI121103/bioSkills
+codex plugin add single-cell@bioskills
+codex plugin add variant-calling@bioskills
+```
+
+Or browse with `/plugins` inside Codex. Start a new session after installing.
+
+**Update / remove**: `claude plugin marketplace update bioskills` / `codex plugin marketplace upgrade bioskills`; `claude plugin uninstall <category>@bioskills` / `codex plugin remove <category>@bioskills`.
+
+**Maintainers**: after adding or removing a category or skill, run `python3 build-plugins.py` to regenerate the plugin manifests.
+
 ### Claude Code
 
 ```bash

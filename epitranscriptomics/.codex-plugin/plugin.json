@@ -1,0 +1,30 @@
+{
+  "name": "epitranscriptomics",
+  "version": "1.0.0",
+  "description": "Detection, quantification, differential analysis, and visualisation of RNA modifications (primarily m6A / N6-methyladenosine, with secondary coverage of m6Am and m5C) from MeRIP-seq / m6A-seq antibody-IP data and Oxford Nanopore direct-RNA-sequencing (ONT DRS) signal data (5 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./m6a-differential/",
+    "./m6a-peak-calling/",
+    "./m6anet-analysis/",
+    "./merip-preprocessing/",
+    "./modification-visualization/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Epitranscriptomics",
+    "shortDescription": "Detection, quantification, differential analysis, and visualisation of RNA modifications (primarily m6A / N6-methyladeno",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

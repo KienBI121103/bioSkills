@@ -1,0 +1,34 @@
+{
+  "name": "alternative-splicing",
+  "version": "1.0.0",
+  "description": "Alternative splicing analysis for short-read and long-read RNA-seq, covering event quantification, differential splicing, isoform switching with functional consequences, visualization, sequencing QC, single-cell splicing, deep-learning splice variant prediction, outlier detection in rare disease, and full-isoform analysis from PacBio/ONT long reads (9 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./differential-splicing/",
+    "./isoform-switching/",
+    "./long-read-splicing/",
+    "./outlier-splicing-detection/",
+    "./sashimi-plots/",
+    "./single-cell-splicing/",
+    "./splice-variant-prediction/",
+    "./splicing-qc/",
+    "./splicing-quantification/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Alternative Splicing",
+    "shortDescription": "Alternative splicing analysis for short-read and long-read RNA-seq, covering event quantification, differential splicing",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

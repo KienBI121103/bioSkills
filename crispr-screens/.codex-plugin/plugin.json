@@ -1,0 +1,40 @@
+{
+  "name": "crispr-screens",
+  "version": "1.0.0",
+  "description": "Decision-grade analysis of pooled and single-cell CRISPR screens (15 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./bagel-essentiality/",
+    "./base-editing-analysis/",
+    "./batch-correction/",
+    "./combinatorial-screens/",
+    "./copy-number-correction/",
+    "./crispresso-editing/",
+    "./drugz-chemogenomic/",
+    "./hit-calling/",
+    "./in-vivo-screens/",
+    "./jacks-analysis/",
+    "./library-design/",
+    "./mageck-analysis/",
+    "./perturb-seq-analysis/",
+    "./prime-editing-screens/",
+    "./screen-qc/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Crispr Screens",
+    "shortDescription": "Decision-grade analysis of pooled and single-cell CRISPR screens (15 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

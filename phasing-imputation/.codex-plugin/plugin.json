@@ -1,0 +1,29 @@
+{
+  "name": "phasing-imputation",
+  "version": "1.0.0",
+  "description": "Statistical haplotype phasing and reference-panel genotype imputation for array and sequence data, with Beagle, SHAPEIT5, IMPUTE5, Minimac4, and GLIMPSE2 (4 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./genotype-imputation/",
+    "./haplotype-phasing/",
+    "./imputation-qc/",
+    "./reference-panels/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Phasing Imputation",
+    "shortDescription": "Statistical haplotype phasing and reference-panel genotype imputation for array and sequence data, with Beagle, SHAPEIT5",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

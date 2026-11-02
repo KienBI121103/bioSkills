@@ -1,0 +1,31 @@
+{
+  "name": "ecological-genomics",
+  "version": "1.0.0",
+  "description": "Analyze ecological and environmental genomics data at postdoc-grade depth (6 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./biodiversity-metrics/",
+    "./community-ecology/",
+    "./conservation-genetics/",
+    "./edna-metabarcoding/",
+    "./landscape-genomics/",
+    "./species-delimitation/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Ecological Genomics",
+    "shortDescription": "Analyze ecological and environmental genomics data at postdoc-grade depth (6 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

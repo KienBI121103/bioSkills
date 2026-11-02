@@ -1,0 +1,33 @@
+{
+  "name": "genome-intervals",
+  "version": "1.0.0",
+  "description": "Genomic interval algebra and signal tracks: coordinate systems, set operations, overlap-significance testing, GTF/GFF gene-model parsing, proximity queries, coverage, and bedGraph/bigWig track generation with bedtools/pybedtools/pyranges, gffutils, deepTools, and pyBigWig (8 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./bed-file-basics/",
+    "./bedgraph-handling/",
+    "./bigwig-tracks/",
+    "./coverage-analysis/",
+    "./gtf-gff-handling/",
+    "./interval-arithmetic/",
+    "./overlap-significance/",
+    "./proximity-operations/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Genome Intervals",
+    "shortDescription": "Genomic interval algebra and signal tracks: coordinate systems, set operations, overlap-significance testing, GTF/GFF ge",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

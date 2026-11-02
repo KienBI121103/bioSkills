@@ -1,0 +1,37 @@
+{
+  "name": "spatial-transcriptomics",
+  "version": "1.0.0",
+  "description": "Analyze spatial transcriptomics and multiplexed-imaging data while respecting the one fork that decides the whole pipeline: the platform class (12 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./high-resolution-binning/",
+    "./image-analysis/",
+    "./spatial-communication/",
+    "./spatial-data-io/",
+    "./spatial-deconvolution/",
+    "./spatial-domains/",
+    "./spatial-multiomics/",
+    "./spatial-neighbors/",
+    "./spatial-preprocessing/",
+    "./spatial-proteomics/",
+    "./spatial-statistics/",
+    "./spatial-visualization/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Spatial Transcriptomics",
+    "shortDescription": "Analyze spatial transcriptomics and multiplexed-imaging data while respecting the one fork that decides the whole pipeli",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

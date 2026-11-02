@@ -1,0 +1,31 @@
+{
+  "name": "reporting",
+  "version": "1.0.0",
+  "description": "Reproducible report generation for bioinformatics analyses: literate-programming documents, QC aggregation, and publication-ready figures and tables (6 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./automated-qc-reports/",
+    "./figure-export/",
+    "./jupyter-reports/",
+    "./publication-tables/",
+    "./quarto-reports/",
+    "./rmarkdown-reports/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Reporting",
+    "shortDescription": "Reproducible report generation for bioinformatics analyses: literate-programming documents, QC aggregation, and publicat",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "microbiome",
+  "version": "1.0.0",
+  "description": "Amplicon (16S rRNA / ITS / 18S) sequencing analysis from demultiplexed reads to compositional differential abundance: DADA2 ASV inference, taxonomy assignment against SILVA/GTDB/Greengenes2/UNITE, alpha/beta diversity, compositional differential abundance, and PICRUSt2 functional prediction (6 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./amplicon-processing/",
+    "./differential-abundance/",
+    "./diversity-analysis/",
+    "./functional-prediction/",
+    "./qiime2-workflow/",
+    "./taxonomy-assignment/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Microbiome",
+    "shortDescription": "Amplicon (16S rRNA / ITS / 18S) sequencing analysis from demultiplexed reads to compositional differential abundance: DA",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

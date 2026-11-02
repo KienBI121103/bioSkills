@@ -1,0 +1,30 @@
+{
+  "name": "multi-omics-integration",
+  "version": "1.0.0",
+  "description": "Joint statistical integration of two or more BULK omics blocks on a shared sample axis: deciding the integration strategy, MOFA2 unsupervised factor discovery, mixOmics supervised multi-block discriminant analysis (DIABLO/sPLS/MINT), Similarity Network Fusion for patient stratification, and cross-omic harmonization (5 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./data-harmonization/",
+    "./integration-design/",
+    "./mixomics-analysis/",
+    "./mofa-integration/",
+    "./similarity-network/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Multi Omics Integration",
+    "shortDescription": "Joint statistical integration of two or more BULK omics blocks on a shared sample axis: deciding the integration strateg",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

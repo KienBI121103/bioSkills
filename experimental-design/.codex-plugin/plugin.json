@@ -1,0 +1,30 @@
+{
+  "name": "experimental-design",
+  "version": "1.0.0",
+  "description": "Skills for designing genomics experiments so that statistical inference is valid by construction: choosing the experimental unit, randomizing and blocking, balancing technical variation, powering the study, sizing the sample, and controlling error rates across thousands of tests (5 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./batch-design/",
+    "./multiple-testing/",
+    "./power-analysis/",
+    "./randomization-blocking/",
+    "./sample-size/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Experimental Design",
+    "shortDescription": "Skills for designing genomics experiments so that statistical inference is valid by construction: choosing the experimen",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

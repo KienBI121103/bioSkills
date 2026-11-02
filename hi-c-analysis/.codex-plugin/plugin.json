@@ -1,0 +1,34 @@
+{
+  "name": "hi-c-analysis",
+  "version": "1.0.0",
+  "description": "Analyze Hi-C and chromosome-conformation-capture data: read-pair processing and library QC, cooler matrices, ICE/KR balancing and distance-decay normalization, A/B compartments, TADs, loops, visualization, differential comparison, and protein-directed 3C (HiChIP/PLAC-seq/Capture Hi-C) (9 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./compartment-analysis/",
+    "./contact-pairs/",
+    "./hic-data-io/",
+    "./hic-differential/",
+    "./hic-visualization/",
+    "./hichip-plac-loops/",
+    "./loop-calling/",
+    "./matrix-operations/",
+    "./tad-detection/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Hi C Analysis",
+    "shortDescription": "Analyze Hi-C and chromosome-conformation-capture data: read-pair processing and library QC, cooler matrices, ICE/KR bala",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

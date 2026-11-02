@@ -1,0 +1,31 @@
+{
+  "name": "differential-expression",
+  "version": "1.0.0",
+  "description": "Postdoc-grade differential expression analysis of bulk RNA-seq count data with DESeq2, edgeR, and limma-voom (6 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./batch-correction/",
+    "./de-results/",
+    "./de-visualization/",
+    "./deseq2-basics/",
+    "./edger-basics/",
+    "./timeseries-de/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Differential Expression",
+    "shortDescription": "Postdoc-grade differential expression analysis of bulk RNA-seq count data with DESeq2, edgeR, and limma-voom (6 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "alignment-files",
+  "version": "1.0.0",
+  "description": "Working with SAM/BAM/CRAM alignment files using samtools and pysam (10 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./alignment-amplicon-clipping/",
+    "./alignment-filtering/",
+    "./alignment-indexing/",
+    "./alignment-sorting/",
+    "./alignment-validation/",
+    "./bam-statistics/",
+    "./duplicate-handling/",
+    "./pileup-generation/",
+    "./reference-operations/",
+    "./sam-bam-basics/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Alignment Files",
+    "shortDescription": "Working with SAM/BAM/CRAM alignment files using samtools and pysam (10 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

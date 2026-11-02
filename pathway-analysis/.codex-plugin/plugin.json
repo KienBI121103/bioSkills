@@ -1,0 +1,31 @@
+{
+  "name": "pathway-analysis",
+  "version": "1.0.0",
+  "description": "Functional enrichment of gene lists and ranked gene vectors against curated gene sets (GO, KEGG, Reactome, WikiPathways, MSigDB) with R/Bioconductor: over-representation analysis (ORA), Gene Set Enrichment Analysis (GSEA), and pathway-topology analysis (SPIA) (6 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./enrichment-visualization/",
+    "./go-enrichment/",
+    "./gsea/",
+    "./kegg-pathways/",
+    "./reactome-pathways/",
+    "./wikipathways/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Pathway Analysis",
+    "shortDescription": "Functional enrichment of gene lists and ranked gene vectors against curated gene sets (GO, KEGG, Reactome, WikiPathways,",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

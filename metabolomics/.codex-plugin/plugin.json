@@ -1,0 +1,34 @@
+{
+  "name": "metabolomics",
+  "version": "1.0.0",
+  "description": "Decision-grade LC-MS and GC-MS metabolomics, from raw data to biological interpretation (9 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./isotope-tracing/",
+    "./lipidomics/",
+    "./metabolite-annotation/",
+    "./msdial-preprocessing/",
+    "./normalization-qc/",
+    "./pathway-mapping/",
+    "./statistical-analysis/",
+    "./targeted-analysis/",
+    "./xcms-preprocessing/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Metabolomics",
+    "shortDescription": "Decision-grade LC-MS and GC-MS metabolomics, from raw data to biological interpretation (9 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

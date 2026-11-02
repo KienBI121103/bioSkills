@@ -1,0 +1,29 @@
+{
+  "name": "rna-structure",
+  "version": "1.0.0",
+  "description": "Predict and analyze RNA secondary structures, search for non-coding RNA families, interpret experimental structure probing data, and validate conserved structures by evolutionary covariation (4 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./covariation-analysis/",
+    "./ncrna-search/",
+    "./secondary-structure-prediction/",
+    "./structure-probing/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Rna Structure",
+    "shortDescription": "Predict and analyze RNA secondary structures, search for non-coding RNA families, interpret experimental structure probi",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "epidemiological-genomics",
+  "version": "1.0.0",
+  "description": "Pathogen surveillance and outbreak genomics from raw reads to public-health-actionable output (5 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./amr-surveillance/",
+    "./pathogen-typing/",
+    "./phylodynamics/",
+    "./transmission-inference/",
+    "./variant-surveillance/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Epidemiological Genomics",
+    "shortDescription": "Pathogen surveillance and outbreak genomics from raw reads to public-health-actionable output (5 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

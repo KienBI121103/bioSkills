@@ -1,0 +1,32 @@
+{
+  "name": "liquid-biopsy",
+  "version": "1.0.0",
+  "description": "Cell-free DNA and circulating tumor DNA analysis for non-invasive cancer detection, tumor fraction estimation, mutation detection, and treatment monitoring from plasma samples (7 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./analytical-validation/",
+    "./cfdna-preprocessing/",
+    "./ctdna-mutation-detection/",
+    "./fragment-analysis/",
+    "./longitudinal-monitoring/",
+    "./methylation-based-detection/",
+    "./tumor-fraction-estimation/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Liquid Biopsy",
+    "shortDescription": "Cell-free DNA and circulating tumor DNA analysis for non-invasive cancer detection, tumor fraction estimation, mutation ",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

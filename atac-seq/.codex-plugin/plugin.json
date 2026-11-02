@@ -1,0 +1,37 @@
+{
+  "name": "atac-seq",
+  "version": "1.0.0",
+  "description": "Decision-grade ATAC-seq workflows: peak calling (MACS, Genrich, HMMRATAC), ENCODE 4 quality control with citation-anchored thresholds, fixed-width consensus peakset construction (Corces 2018 iterative overlap), differential accessibility across replicate-count regimes (DiffBind, csaw, DESeq2, edgeR), TF footprinting with Tn5 bias correction (TOBIAS, HINT-ATAC, scprinter), nucleosome positioning, motif accessibility variability (chromVAR), single-cell ATAC (Signac/ArchR/SnapATAC2), and cis-regulatory co-accessibility (Cicero, SCENIC+) (12 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./allele-specific-accessibility/",
+    "./atac-peak-calling/",
+    "./atac-qc/",
+    "./co-accessibility/",
+    "./consensus-peakset/",
+    "./deep-learning-atac/",
+    "./differential-accessibility/",
+    "./enhancer-gene-linking/",
+    "./footprinting/",
+    "./motif-deviation/",
+    "./nucleosome-positioning/",
+    "./single-cell-atac/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Atac Seq",
+    "shortDescription": "Decision-grade ATAC-seq workflows: peak calling (MACS, Genrich, HMMRATAC), ENCODE 4 quality control with citation-anchor",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

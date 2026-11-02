@@ -1,0 +1,35 @@
+{
+  "name": "methylation-analysis",
+  "version": "1.0.0",
+  "description": "DNA methylation analysis across both major platforms: short-read bisulfite/EM-seq sequencing (WGBS, RRBS, PBAT) and Illumina Infinium arrays (450K, EPIC, EPICv2) (10 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./array-preprocessing/",
+    "./array-qc-filtering/",
+    "./bismark-alignment/",
+    "./cell-type-deconvolution/",
+    "./differential-cpg-testing/",
+    "./dmr-detection/",
+    "./epigenetic-clocks/",
+    "./ewas-design/",
+    "./methylation-calling/",
+    "./methylkit-analysis/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Methylation Analysis",
+    "shortDescription": "DNA methylation analysis across both major platforms: short-read bisulfite/EM-seq sequencing (WGBS, RRBS, PBAT) and Illu",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

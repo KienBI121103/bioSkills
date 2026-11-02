@@ -1,0 +1,30 @@
+{
+  "name": "genome-engineering",
+  "version": "1.0.0",
+  "description": "Design CRISPR edits and their safety checks: guide RNAs for knockout, off-target prediction, base editing (CBE/ABE), prime editing (pegRNAs), and HDR donor templates for knock-ins (5 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./base-editing-design/",
+    "./grna-design/",
+    "./hdr-template-design/",
+    "./off-target-prediction/",
+    "./prime-editing-design/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Genome Engineering",
+    "shortDescription": "Design CRISPR edits and their safety checks: guide RNAs for knockout, off-target prediction, base editing (CBE/ABE), pri",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

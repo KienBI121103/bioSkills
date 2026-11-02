@@ -1,0 +1,32 @@
+{
+  "name": "systems-biology",
+  "version": "1.0.0",
+  "description": "Constraint-based / genome-scale metabolic modeling: draft reconstruction from genomes, curation and gap-filling, FBA/FVA flux prediction, gene essentiality, context-specific model building, multi-species community modeling, and computational strain design (7 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./community-metabolic-modeling/",
+    "./context-specific-models/",
+    "./flux-balance-analysis/",
+    "./gene-essentiality/",
+    "./metabolic-reconstruction/",
+    "./model-curation/",
+    "./strain-design/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Systems Biology",
+    "shortDescription": "Constraint-based / genome-scale metabolic modeling: draft reconstruction from genomes, curation and gap-filling, FBA/FVA",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

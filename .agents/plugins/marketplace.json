@@ -1,0 +1,776 @@
+{
+  "name": "bioskills",
+  "interface": {
+    "displayName": "bioSkills"
+  },
+  "plugins": [
+    {
+      "name": "bioskills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "alignment",
+      "source": {
+        "source": "local",
+        "path": "./alignment"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "alignment-files",
+      "source": {
+        "source": "local",
+        "path": "./alignment-files"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "alternative-splicing",
+      "source": {
+        "source": "local",
+        "path": "./alternative-splicing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "atac-seq",
+      "source": {
+        "source": "local",
+        "path": "./atac-seq"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "causal-genomics",
+      "source": {
+        "source": "local",
+        "path": "./causal-genomics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "chemoinformatics",
+      "source": {
+        "source": "local",
+        "path": "./chemoinformatics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "chip-seq",
+      "source": {
+        "source": "local",
+        "path": "./chip-seq"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "clinical-biostatistics",
+      "source": {
+        "source": "local",
+        "path": "./clinical-biostatistics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "clinical-databases",
+      "source": {
+        "source": "local",
+        "path": "./clinical-databases"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "clip-seq",
+      "source": {
+        "source": "local",
+        "path": "./clip-seq"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "comparative-genomics",
+      "source": {
+        "source": "local",
+        "path": "./comparative-genomics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "copy-number",
+      "source": {
+        "source": "local",
+        "path": "./copy-number"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "crispr-screens",
+      "source": {
+        "source": "local",
+        "path": "./crispr-screens"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "data-visualization",
+      "source": {
+        "source": "local",
+        "path": "./data-visualization"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "database-access",
+      "source": {
+        "source": "local",
+        "path": "./database-access"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "differential-expression",
+      "source": {
+        "source": "local",
+        "path": "./differential-expression"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "ecological-genomics",
+      "source": {
+        "source": "local",
+        "path": "./ecological-genomics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "epidemiological-genomics",
+      "source": {
+        "source": "local",
+        "path": "./epidemiological-genomics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "epitranscriptomics",
+      "source": {
+        "source": "local",
+        "path": "./epitranscriptomics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "experimental-design",
+      "source": {
+        "source": "local",
+        "path": "./experimental-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "expression-matrix",
+      "source": {
+        "source": "local",
+        "path": "./expression-matrix"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "flow-cytometry",
+      "source": {
+        "source": "local",
+        "path": "./flow-cytometry"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "gene-regulatory-networks",
+      "source": {
+        "source": "local",
+        "path": "./gene-regulatory-networks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "genome-annotation",
+      "source": {
+        "source": "local",
+        "path": "./genome-annotation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "genome-assembly",
+      "source": {
+        "source": "local",
+        "path": "./genome-assembly"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "genome-engineering",
+      "source": {
+        "source": "local",
+        "path": "./genome-engineering"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "genome-intervals",
+      "source": {
+        "source": "local",
+        "path": "./genome-intervals"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "hi-c-analysis",
+      "source": {
+        "source": "local",
+        "path": "./hi-c-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "imaging-mass-cytometry",
+      "source": {
+        "source": "local",
+        "path": "./imaging-mass-cytometry"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "immunoinformatics",
+      "source": {
+        "source": "local",
+        "path": "./immunoinformatics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "liquid-biopsy",
+      "source": {
+        "source": "local",
+        "path": "./liquid-biopsy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "long-read-sequencing",
+      "source": {
+        "source": "local",
+        "path": "./long-read-sequencing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "machine-learning",
+      "source": {
+        "source": "local",
+        "path": "./machine-learning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "metabolomics",
+      "source": {
+        "source": "local",
+        "path": "./metabolomics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "metagenomics",
+      "source": {
+        "source": "local",
+        "path": "./metagenomics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "methylation-analysis",
+      "source": {
+        "source": "local",
+        "path": "./methylation-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "microbiome",
+      "source": {
+        "source": "local",
+        "path": "./microbiome"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "multi-omics-integration",
+      "source": {
+        "source": "local",
+        "path": "./multi-omics-integration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "pathway-analysis",
+      "source": {
+        "source": "local",
+        "path": "./pathway-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "phasing-imputation",
+      "source": {
+        "source": "local",
+        "path": "./phasing-imputation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "phylogenetics",
+      "source": {
+        "source": "local",
+        "path": "./phylogenetics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "population-genetics",
+      "source": {
+        "source": "local",
+        "path": "./population-genetics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "primer-design",
+      "source": {
+        "source": "local",
+        "path": "./primer-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "proteomics",
+      "source": {
+        "source": "local",
+        "path": "./proteomics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "read-alignment",
+      "source": {
+        "source": "local",
+        "path": "./read-alignment"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "read-qc",
+      "source": {
+        "source": "local",
+        "path": "./read-qc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "reporting",
+      "source": {
+        "source": "local",
+        "path": "./reporting"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "restriction-analysis",
+      "source": {
+        "source": "local",
+        "path": "./restriction-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "ribo-seq",
+      "source": {
+        "source": "local",
+        "path": "./ribo-seq"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "rna-quantification",
+      "source": {
+        "source": "local",
+        "path": "./rna-quantification"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "rna-structure",
+      "source": {
+        "source": "local",
+        "path": "./rna-structure"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "sequence-io",
+      "source": {
+        "source": "local",
+        "path": "./sequence-io"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "sequence-manipulation",
+      "source": {
+        "source": "local",
+        "path": "./sequence-manipulation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "single-cell",
+      "source": {
+        "source": "local",
+        "path": "./single-cell"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "small-rna-seq",
+      "source": {
+        "source": "local",
+        "path": "./small-rna-seq"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "spatial-transcriptomics",
+      "source": {
+        "source": "local",
+        "path": "./spatial-transcriptomics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "structural-biology",
+      "source": {
+        "source": "local",
+        "path": "./structural-biology"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "systems-biology",
+      "source": {
+        "source": "local",
+        "path": "./systems-biology"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "tcr-bcr-analysis",
+      "source": {
+        "source": "local",
+        "path": "./tcr-bcr-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "temporal-genomics",
+      "source": {
+        "source": "local",
+        "path": "./temporal-genomics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "variant-calling",
+      "source": {
+        "source": "local",
+        "path": "./variant-calling"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "workflow-management",
+      "source": {
+        "source": "local",
+        "path": "./workflow-management"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "workflows",
+      "source": {
+        "source": "local",
+        "path": "./workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    }
+  ]
+}

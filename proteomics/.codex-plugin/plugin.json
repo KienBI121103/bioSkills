@@ -1,0 +1,34 @@
+{
+  "name": "proteomics",
+  "version": "1.0.0",
+  "description": "Mass spectrometry-based bottom-up proteomics, from raw MS files and search-engine output through identification, quantification, and differential abundance, with DIA, PTM, and quality-control coverage (9 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./data-import/",
+    "./dia-analysis/",
+    "./differential-abundance/",
+    "./peptide-identification/",
+    "./protein-inference/",
+    "./proteomics-qc/",
+    "./ptm-analysis/",
+    "./quantification/",
+    "./spectral-libraries/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Proteomics",
+    "shortDescription": "Mass spectrometry-based bottom-up proteomics, from raw MS files and search-engine output through identification, quantif",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

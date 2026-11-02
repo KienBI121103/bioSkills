@@ -1,0 +1,31 @@
+{
+  "name": "tcr-bcr-analysis",
+  "version": "1.0.0",
+  "description": "Analyze T-cell receptor (TCR) and B-cell receptor (BCR) repertoires from bulk or single-cell sequencing data for immunology research, vaccine development, and cancer immunotherapy (6 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./immcantation-analysis/",
+    "./mixcr-analysis/",
+    "./repertoire-visualization/",
+    "./scirpy-analysis/",
+    "./specificity-annotation/",
+    "./vdjtools-analysis/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Tcr Bcr Analysis",
+    "shortDescription": "Analyze T-cell receptor (TCR) and B-cell receptor (BCR) repertoires from bulk or single-cell sequencing data for immunol",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

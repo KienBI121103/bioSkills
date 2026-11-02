@@ -1,0 +1,36 @@
+{
+  "name": "copy-number",
+  "version": "1.0.0",
+  "description": "Detect, interpret, and characterize copy number variants from whole-genome, exome, and targeted sequencing (11 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./allele-specific-copy-number/",
+    "./cnv-annotation/",
+    "./cnv-visualization/",
+    "./cnvkit-analysis/",
+    "./copy-ratio-segmentation/",
+    "./focal-amplification-ecdna/",
+    "./gatk-cnv/",
+    "./germline-cnv-interpretation/",
+    "./hrd-scoring/",
+    "./recurrent-cnv/",
+    "./subclonal-copy-number/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Copy Number",
+    "shortDescription": "Detect, interpret, and characterize copy number variants from whole-genome, exome, and targeted sequencing (11 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

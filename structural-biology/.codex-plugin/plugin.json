@@ -1,0 +1,35 @@
+{
+  "name": "structural-biology",
+  "version": "1.0.0",
+  "description": "Protein structure analysis using Biopython's Bio.PDB module and modern prediction tools (10 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./alphafold-predictions/",
+    "./binding-site-detection/",
+    "./geometric-analysis/",
+    "./interface-analysis/",
+    "./modern-structure-prediction/",
+    "./structure-io/",
+    "./structure-modification/",
+    "./structure-navigation/",
+    "./structure-preparation/",
+    "./structure-validation/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Structural Biology",
+    "shortDescription": "Protein structure analysis using Biopython's Bio.PDB module and modern prediction tools (10 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

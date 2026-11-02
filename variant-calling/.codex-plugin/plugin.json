@@ -1,0 +1,38 @@
+{
+  "name": "variant-calling",
+  "version": "1.0.0",
+  "description": "Variant calling and VCF/BCF file manipulation (13 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./clinical-interpretation/",
+    "./consensus-sequences/",
+    "./deepvariant/",
+    "./filtering-best-practices/",
+    "./gatk-variant-calling/",
+    "./joint-calling/",
+    "./structural-variant-calling/",
+    "./variant-annotation/",
+    "./variant-calling/",
+    "./variant-normalization/",
+    "./vcf-basics/",
+    "./vcf-manipulation/",
+    "./vcf-statistics/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Variant Calling",
+    "shortDescription": "Variant calling and VCF/BCF file manipulation (13 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

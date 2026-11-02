@@ -1,0 +1,31 @@
+{
+  "name": "immunoinformatics",
+  "version": "1.0.0",
+  "description": "Computational immunology: MHC class I and class II binding/presentation, tumor neoantigen identification and immunogenicity ranking, B/T-cell epitope prediction, and TCR-antigen specificity for vaccine design and cancer immunotherapy (6 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./epitope-prediction/",
+    "./immunogenicity-scoring/",
+    "./mhc-binding-prediction/",
+    "./mhc-class-ii-prediction/",
+    "./neoantigen-prediction/",
+    "./tcr-epitope-binding/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Immunoinformatics",
+    "shortDescription": "Computational immunology: MHC class I and class II binding/presentation, tumor neoantigen identification and immunogenic",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "restriction-analysis",
+  "version": "1.0.0",
+  "description": "Restriction enzyme analysis using Biopython Bio.Restriction (5 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./enzyme-selection/",
+    "./fragment-analysis/",
+    "./golden-gate-assembly/",
+    "./restriction-mapping/",
+    "./restriction-sites/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Restriction Analysis",
+    "shortDescription": "Restriction enzyme analysis using Biopython Bio.Restriction (5 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

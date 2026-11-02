@@ -1,0 +1,36 @@
+{
+  "name": "causal-genomics",
+  "version": "1.0.0",
+  "description": "Infer causal relationships from genetic association data using Mendelian randomization, colocalization, fine-mapping, mediation, heritability partitioning, transcriptome-wide association, and drug-target validation with cis-pQTL MR (11 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./colocalization-analysis/",
+    "./effector-gene-prioritization/",
+    "./fine-mapping/",
+    "./genetic-correlation/",
+    "./genomic-sem/",
+    "./heritability-partitioning/",
+    "./mediation-analysis/",
+    "./mendelian-randomization/",
+    "./pleiotropy-detection/",
+    "./proteome-mr-drug-target/",
+    "./transcriptome-wide-association/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Causal Genomics",
+    "shortDescription": "Infer causal relationships from genetic association data using Mendelian randomization, colocalization, fine-mapping, me",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

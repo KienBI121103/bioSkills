@@ -1,0 +1,32 @@
+{
+  "name": "alignment",
+  "version": "1.0.0",
+  "description": "Sequence-to-sequence alignment: pairwise (Bio.Align, parasail, edlib, WFA), multiple sequence alignment (MAFFT, MUSCLE5, ClustalOmega, T-Coffee, BAli-Phy joint co-estimation), structural alignment (Foldseek, Foldseek-Multimer, TM-align, US-align, DALI, Foldmason), alignment I/O, post-MSA filtering / trimming / column-mapping (ClipKIT, trimAl, BMGE, PhyIN), and alignment analysis (conservation, identity, coevolution) (7 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./alignment-io/",
+    "./alignment-trimming/",
+    "./msa-parsing/",
+    "./msa-statistics/",
+    "./multiple-alignment/",
+    "./pairwise-alignment/",
+    "./structural-alignment/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Alignment",
+    "shortDescription": "Sequence-to-sequence alignment: pairwise (Bio.Align, parasail, edlib, WFA), multiple sequence alignment (MAFFT, MUSCLE5,",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

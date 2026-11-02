@@ -1,0 +1,32 @@
+{
+  "name": "read-qc",
+  "version": "1.0.0",
+  "description": "Read quality control and preprocessing - the first step in any NGS workflow (7 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./adapter-trimming/",
+    "./contamination-screening/",
+    "./fastp-workflow/",
+    "./quality-filtering/",
+    "./quality-reports/",
+    "./rnaseq-qc/",
+    "./umi-processing/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Read Qc",
+    "shortDescription": "Read quality control and preprocessing - the first step in any NGS workflow (7 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

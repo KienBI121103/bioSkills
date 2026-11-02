@@ -1,0 +1,31 @@
+{
+  "name": "ribo-seq",
+  "version": "1.0.0",
+  "description": "Analyze ribosome profiling (Ribo-seq) data to study translation at codon resolution: preprocessing with UMI handling, periodicity QC and P-site calibration, ORF detection, translation efficiency, ribosome stalling, and initiation-site mapping (6 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./initiation-site-mapping/",
+    "./orf-detection/",
+    "./riboseq-preprocessing/",
+    "./ribosome-periodicity/",
+    "./ribosome-stalling/",
+    "./translation-efficiency/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Ribo Seq",
+    "shortDescription": "Analyze ribosome profiling (Ribo-seq) data to study translation at codon resolution: preprocessing with UMI handling, pe",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

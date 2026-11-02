@@ -1,0 +1,30 @@
+{
+  "name": "workflow-management",
+  "version": "1.0.0",
+  "description": "Workflow engines for authoring bioinformatics pipelines (5 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./cwl-workflows/",
+    "./nextflow-pipelines/",
+    "./nf-core-pipelines/",
+    "./snakemake-workflows/",
+    "./wdl-workflows/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Workflow Management",
+    "shortDescription": "Workflow engines for authoring bioinformatics pipelines (5 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

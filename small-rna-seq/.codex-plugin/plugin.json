@@ -1,0 +1,31 @@
+{
+  "name": "small-rna-seq",
+  "version": "1.0.0",
+  "description": "Analyze small RNA sequencing data across all classes - miRNA, isomiRs, tRNA-derived fragments (tRFs), piRNA, and rRNA/snoRNA-derived species - for preprocessing, discovery, quantification, differential expression, and target prediction (6 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./differential-mirna/",
+    "./mirdeep2-analysis/",
+    "./mirge3-analysis/",
+    "./smrna-preprocessing/",
+    "./target-prediction/",
+    "./trf-pirna-profiling/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Small Rna Seq",
+    "shortDescription": "Analyze small RNA sequencing data across all classes - miRNA, isomiRs, tRNA-derived fragments (tRFs), piRNA, and rRNA/sn",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

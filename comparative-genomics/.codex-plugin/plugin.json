@@ -1,0 +1,38 @@
+{
+  "name": "comparative-genomics",
+  "version": "1.0.0",
+  "description": "Comparative genomics across species for inferring evolutionary history, gene-family dynamics, structural rearrangements, polyploidy, horizontal gene transfer, introgression, positive selection, and ancestral state reconstruction (13 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./ancestral-reconstruction/",
+    "./comparative-annotation-projection/",
+    "./gene-family-evolution/",
+    "./gene-tree-species-tree-reconciliation/",
+    "./genome-distance-and-species-delineation/",
+    "./hgt-detection/",
+    "./introgression-detection/",
+    "./ortholog-inference/",
+    "./pangenome-analysis/",
+    "./positive-selection/",
+    "./synteny-analysis/",
+    "./whole-genome-alignment/",
+    "./whole-genome-duplication/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Comparative Genomics",
+    "shortDescription": "Comparative genomics across species for inferring evolutionary history, gene-family dynamics, structural rearrangements,",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

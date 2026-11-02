@@ -1,0 +1,42 @@
+{
+  "name": "single-cell",
+  "version": "1.0.0",
+  "description": "Single-cell genomics with Seurat (R) and Scanpy (Python) (17 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./batch-integration/",
+    "./cell-annotation/",
+    "./cell-communication/",
+    "./clustering/",
+    "./cnv-inference/",
+    "./data-io/",
+    "./differential-abundance/",
+    "./doublet-detection/",
+    "./hashing-demultiplexing/",
+    "./lineage-tracing/",
+    "./markers-annotation/",
+    "./metabolite-communication/",
+    "./multimodal-integration/",
+    "./perturb-seq/",
+    "./preprocessing/",
+    "./scatac-analysis/",
+    "./trajectory-inference/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Single Cell",
+    "shortDescription": "Single-cell genomics with Seurat (R) and Scanpy (Python) (17 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

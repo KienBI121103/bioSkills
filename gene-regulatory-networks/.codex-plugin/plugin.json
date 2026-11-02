@@ -1,0 +1,31 @@
+{
+  "name": "gene-regulatory-networks",
+  "version": "1.0.0",
+  "description": "Infer and analyze gene regulatory networks from expression and chromatin data (6 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./coexpression-networks/",
+    "./differential-networks/",
+    "./grn-inference/",
+    "./multiomics-grn/",
+    "./perturbation-simulation/",
+    "./scenic-regulons/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Gene Regulatory Networks",
+    "shortDescription": "Infer and analyze gene regulatory networks from expression and chromatin data (6 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

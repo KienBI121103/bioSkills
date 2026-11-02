@@ -1,0 +1,712 @@
+{
+  "name": "bioskills",
+  "description": "Bioinformatics agent skills, installable per category or all at once",
+  "owner": {
+    "name": "KienBI121103",
+    "url": "https://github.com/KienBI121103/bioSkills"
+  },
+  "plugins": [
+    {
+      "name": "bioskills",
+      "source": "./",
+      "description": "All 561 bioSkills across 63 bioinformatics categories",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./alignment",
+        "./alignment-files",
+        "./alternative-splicing",
+        "./atac-seq",
+        "./causal-genomics",
+        "./chemoinformatics",
+        "./chip-seq",
+        "./clinical-biostatistics",
+        "./clinical-databases",
+        "./clip-seq",
+        "./comparative-genomics",
+        "./copy-number",
+        "./crispr-screens",
+        "./data-visualization",
+        "./database-access",
+        "./differential-expression",
+        "./ecological-genomics",
+        "./epidemiological-genomics",
+        "./epitranscriptomics",
+        "./experimental-design",
+        "./expression-matrix",
+        "./flow-cytometry",
+        "./gene-regulatory-networks",
+        "./genome-annotation",
+        "./genome-assembly",
+        "./genome-engineering",
+        "./genome-intervals",
+        "./hi-c-analysis",
+        "./imaging-mass-cytometry",
+        "./immunoinformatics",
+        "./liquid-biopsy",
+        "./long-read-sequencing",
+        "./machine-learning",
+        "./metabolomics",
+        "./metagenomics",
+        "./methylation-analysis",
+        "./microbiome",
+        "./multi-omics-integration",
+        "./pathway-analysis",
+        "./phasing-imputation",
+        "./phylogenetics",
+        "./population-genetics",
+        "./primer-design",
+        "./proteomics",
+        "./read-alignment",
+        "./read-qc",
+        "./reporting",
+        "./restriction-analysis",
+        "./ribo-seq",
+        "./rna-quantification",
+        "./rna-structure",
+        "./sequence-io",
+        "./sequence-manipulation",
+        "./single-cell",
+        "./small-rna-seq",
+        "./spatial-transcriptomics",
+        "./structural-biology",
+        "./systems-biology",
+        "./tcr-bcr-analysis",
+        "./temporal-genomics",
+        "./variant-calling",
+        "./workflow-management",
+        "./workflows"
+      ]
+    },
+    {
+      "name": "alignment",
+      "source": "./alignment",
+      "description": "Sequence-to-sequence alignment: pairwise (Bio.Align, parasail, edlib, WFA), multiple sequence alignment (MAFFT, MUSCLE5, ClustalOmega, T-Coffee, BAli-Phy joint co-estimation), structural alignment (Foldseek, Foldseek-Multimer, TM-align, US-align, DALI, Foldmason), alignment I/O, post-MSA filtering / trimming / column-mapping (ClipKIT, trimAl, BMGE, PhyIN), and alignment analysis (conservation, identity, coevolution) (7 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "alignment-files",
+      "source": "./alignment-files",
+      "description": "Working with SAM/BAM/CRAM alignment files using samtools and pysam (10 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "alternative-splicing",
+      "source": "./alternative-splicing",
+      "description": "Alternative splicing analysis for short-read and long-read RNA-seq, covering event quantification, differential splicing, isoform switching with functional consequences, visualization, sequencing QC, single-cell splicing, deep-learning splice variant prediction, outlier detection in rare disease, and full-isoform analysis from PacBio/ONT long reads (9 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "atac-seq",
+      "source": "./atac-seq",
+      "description": "Decision-grade ATAC-seq workflows: peak calling (MACS, Genrich, HMMRATAC), ENCODE 4 quality control with citation-anchored thresholds, fixed-width consensus peakset construction (Corces 2018 iterative overlap), differential accessibility across replicate-count regimes (DiffBind, csaw, DESeq2, edgeR), TF footprinting with Tn5 bias correction (TOBIAS, HINT-ATAC, scprinter), nucleosome positioning, motif accessibility variability (chromVAR), single-cell ATAC (Signac/ArchR/SnapATAC2), and cis-regulatory co-accessibility (Cicero, SCENIC+) (12 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "causal-genomics",
+      "source": "./causal-genomics",
+      "description": "Infer causal relationships from genetic association data using Mendelian randomization, colocalization, fine-mapping, mediation, heritability partitioning, transcriptome-wide association, and drug-target validation with cis-pQTL MR (11 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "chemoinformatics",
+      "source": "./chemoinformatics",
+      "description": "Computational chemistry for drug discovery covering molecular representations, standardization, conformer generation, descriptor calculation, similarity / shape / pharmacophore search, virtual screening (classical + ML), pose validation, free-energy calculations, QSAR, generative design, retrosynthesis, covalent inhibitor design, and PROTAC degrader design (20 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "chip-seq",
+      "source": "./chip-seq",
+      "description": "Postdoc-grade ChIP-seq analysis covering peak calling, QC, differential binding, motif discovery, peak annotation, super-enhancers, visualization, CUT&RUN/CUT&Tag, spike-in normalization, chromatin state segmentation, deep-learning models, and allele-specific binding (12 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "clinical-biostatistics",
+      "source": "./clinical-biostatistics",
+      "description": "Postdoc/regulatory-grade statistical analysis methods for clinical trial data, spanning CDISC SDTM/ADaM data preparation, ICH E9(R1) estimand framework, FDA 2023 covariate adjustment, modern multiplicity (Bretz-Maurer graphical), survival analysis under non-PH (RMST, Fine-Gray vs cause-specific Cox), missing-data sensitivity (MMRM, reference-based MI, Permutt tipping point), adaptive designs (ICH E20 draft, BOIN, Mehta-Pocock), and Bayesian platform trials (I-SPY 2, EXNEX, MAP priors) (12 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "clinical-databases",
+      "source": "./clinical-databases",
+      "description": "Decision-grade clinical and population genetics database skills covering variant interpretation, ACMG/AMP classification, pharmacogenomics, polygenic risk, somatic signatures, TMB / MSI ICI biomarkers, and HLA typing (12 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "clip-seq",
+      "source": "./clip-seq",
+      "description": "Map and analyze protein-RNA interactions from CLIP-seq family methods (eCLIP, iCLIP, iCLIP2, iCLIP3, irCLIP, PAR-CLIP, FLASH, miCLIP2, STAMP, chimeric eCLIP) (12 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "comparative-genomics",
+      "source": "./comparative-genomics",
+      "description": "Comparative genomics across species for inferring evolutionary history, gene-family dynamics, structural rearrangements, polyploidy, horizontal gene transfer, introgression, positive selection, and ancestral state reconstruction (13 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "copy-number",
+      "source": "./copy-number",
+      "description": "Detect, interpret, and characterize copy number variants from whole-genome, exome, and targeted sequencing (11 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "crispr-screens",
+      "source": "./crispr-screens",
+      "description": "Decision-grade analysis of pooled and single-cell CRISPR screens (15 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "data-visualization",
+      "source": "./data-visualization",
+      "description": "Publication-quality data visualization for bioinformatics at PhD/post-doc decision-grade depth (20 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "database-access",
+      "source": "./database-access",
+      "description": "Programmatic access to NCBI, EMBL-EBI (Ensembl, ENA, UniProt, BioStudies), and interaction-database resources (15 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "differential-expression",
+      "source": "./differential-expression",
+      "description": "Postdoc-grade differential expression analysis of bulk RNA-seq count data with DESeq2, edgeR, and limma-voom (6 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "ecological-genomics",
+      "source": "./ecological-genomics",
+      "description": "Analyze ecological and environmental genomics data at postdoc-grade depth (6 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "epidemiological-genomics",
+      "source": "./epidemiological-genomics",
+      "description": "Pathogen surveillance and outbreak genomics from raw reads to public-health-actionable output (5 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "epitranscriptomics",
+      "source": "./epitranscriptomics",
+      "description": "Detection, quantification, differential analysis, and visualisation of RNA modifications (primarily m6A / N6-methyladenosine, with secondary coverage of m6Am and m5C) from MeRIP-seq / m6A-seq antibody-IP data and Oxford Nanopore direct-RNA-sequencing (ONT DRS) signal data (5 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "experimental-design",
+      "source": "./experimental-design",
+      "description": "Skills for designing genomics experiments so that statistical inference is valid by construction: choosing the experimental unit, randomizing and blocking, balancing technical variation, powering the study, sizing the sample, and controlling error rates across thousands of tests (5 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "expression-matrix",
+      "source": "./expression-matrix",
+      "description": "Postdoc-grade ingestion, ID mapping, metadata joining, normalization, and sparse handling for RNA-seq count matrices (bulk and single-cell) (5 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "flow-cytometry",
+      "source": "./flow-cytometry",
+      "description": "Flow, spectral, and mass cytometry (CyTOF) analysis from raw FCS files to differentially abundant cell populations (8 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "gene-regulatory-networks",
+      "source": "./gene-regulatory-networks",
+      "description": "Infer and analyze gene regulatory networks from expression and chromatin data (6 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "genome-annotation",
+      "source": "./genome-annotation",
+      "description": "Annotate assembled genomes with repeat masking, gene prediction (prokaryotic and eukaryotic), non-coding RNA detection, functional assignment, completeness QC, and annotation transfer between assemblies (7 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "genome-assembly",
+      "source": "./genome-assembly",
+      "description": "Assemble genomes from short-read, long-read, and PacBio HiFi data, then polish, scaffold, decontaminate, and quality-assess the result (9 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "genome-engineering",
+      "source": "./genome-engineering",
+      "description": "Design CRISPR edits and their safety checks: guide RNAs for knockout, off-target prediction, base editing (CBE/ABE), prime editing (pegRNAs), and HDR donor templates for knock-ins (5 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "genome-intervals",
+      "source": "./genome-intervals",
+      "description": "Genomic interval algebra and signal tracks: coordinate systems, set operations, overlap-significance testing, GTF/GFF gene-model parsing, proximity queries, coverage, and bedGraph/bigWig track generation with bedtools/pybedtools/pyranges, gffutils, deepTools, and pyBigWig (8 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "hi-c-analysis",
+      "source": "./hi-c-analysis",
+      "description": "Analyze Hi-C and chromosome-conformation-capture data: read-pair processing and library QC, cooler matrices, ICE/KR balancing and distance-decay normalization, A/B compartments, TADs, loops, visualization, differential comparison, and protein-directed 3C (HiChIP/PLAC-seq/Capture Hi-C) (9 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "imaging-mass-cytometry",
+      "source": "./imaging-mass-cytometry",
+      "description": "Spatial proteomics analysis from imaging mass cytometry (IMC) and multiplexed ion beam imaging (MIBI) data, treating pixels as the ion counts they are, segmentation as the dominant error source, and the patient as the experimental unit (7 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "immunoinformatics",
+      "source": "./immunoinformatics",
+      "description": "Computational immunology: MHC class I and class II binding/presentation, tumor neoantigen identification and immunogenicity ranking, B/T-cell epitope prediction, and TCR-antigen specificity for vaccine design and cancer immunotherapy (6 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "liquid-biopsy",
+      "source": "./liquid-biopsy",
+      "description": "Cell-free DNA and circulating tumor DNA analysis for non-invasive cancer detection, tumor fraction estimation, mutation detection, and treatment monitoring from plasma samples (7 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "long-read-sequencing",
+      "source": "./long-read-sequencing",
+      "description": "Analysis of Oxford Nanopore and PacBio long-read data: basecalling, QC, alignment, polishing, small-variant and structural-variant calling, read-backed phasing, direct methylation detection, and full-length isoform analysis (9 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "machine-learning",
+      "source": "./machine-learning",
+      "description": "Decision-grade machine learning for omics and biomedical data: feature selection, classification, survival prediction, model interpretation, validation, and single-cell reference mapping, with the p>>n, leakage, calibration, and correlated-feature traps made explicit (6 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "metabolomics",
+      "source": "./metabolomics",
+      "description": "Decision-grade LC-MS and GC-MS metabolomics, from raw data to biological interpretation (9 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "metagenomics",
+      "source": "./metagenomics",
+      "description": "Read-based taxonomic and functional profiling of shotgun metagenomes (8 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "methylation-analysis",
+      "source": "./methylation-analysis",
+      "description": "DNA methylation analysis across both major platforms: short-read bisulfite/EM-seq sequencing (WGBS, RRBS, PBAT) and Illumina Infinium arrays (450K, EPIC, EPICv2) (10 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "microbiome",
+      "source": "./microbiome",
+      "description": "Amplicon (16S rRNA / ITS / 18S) sequencing analysis from demultiplexed reads to compositional differential abundance: DADA2 ASV inference, taxonomy assignment against SILVA/GTDB/Greengenes2/UNITE, alpha/beta diversity, compositional differential abundance, and PICRUSt2 functional prediction (6 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "multi-omics-integration",
+      "source": "./multi-omics-integration",
+      "description": "Joint statistical integration of two or more BULK omics blocks on a shared sample axis: deciding the integration strategy, MOFA2 unsupervised factor discovery, mixOmics supervised multi-block discriminant analysis (DIABLO/sPLS/MINT), Similarity Network Fusion for patient stratification, and cross-omic harmonization (5 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "pathway-analysis",
+      "source": "./pathway-analysis",
+      "description": "Functional enrichment of gene lists and ranked gene vectors against curated gene sets (GO, KEGG, Reactome, WikiPathways, MSigDB) with R/Bioconductor: over-representation analysis (ORA), Gene Set Enrichment Analysis (GSEA), and pathway-topology analysis (SPIA) (6 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "phasing-imputation",
+      "source": "./phasing-imputation",
+      "description": "Statistical haplotype phasing and reference-panel genotype imputation for array and sequence data, with Beagle, SHAPEIT5, IMPUTE5, Minimac4, and GLIMPSE2 (4 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "phylogenetics",
+      "source": "./phylogenetics",
+      "description": "Phylogenetic tree analysis covering I/O, manipulation, visualization, distance-based methods, maximum likelihood inference, Bayesian analysis, divergence time estimation, and coalescent species tree methods (8 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "population-genetics",
+      "source": "./population-genetics",
+      "description": "Decision-grade population and statistical genetics from genotypes: allele-aware data management and QC, linkage disequilibrium, population structure, single-variant and rare-variant association, and selection scans (7 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "primer-design",
+      "source": "./primer-design",
+      "description": "Design, validate, and specificity-check PCR and qPCR primers with primer3-py (4 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "proteomics",
+      "source": "./proteomics",
+      "description": "Mass spectrometry-based bottom-up proteomics, from raw MS files and search-engine output through identification, quantification, and differential abundance, with DIA, PTM, and quality-control coverage (9 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "read-alignment",
+      "source": "./read-alignment",
+      "description": "Map short reads to a reference genome with the right aligner for the assay, on a correctly-chosen reference: DNA alignment with bwa-mem2/Bowtie2 and RNA-seq spliced alignment with STAR/HISAT2 (4 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "read-qc",
+      "source": "./read-qc",
+      "description": "Read quality control and preprocessing - the first step in any NGS workflow (7 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "reporting",
+      "source": "./reporting",
+      "description": "Reproducible report generation for bioinformatics analyses: literate-programming documents, QC aggregation, and publication-ready figures and tables (6 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "restriction-analysis",
+      "source": "./restriction-analysis",
+      "description": "Restriction enzyme analysis using Biopython Bio.Restriction (5 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "ribo-seq",
+      "source": "./ribo-seq",
+      "description": "Analyze ribosome profiling (Ribo-seq) data to study translation at codon resolution: preprocessing with UMI handling, periodicity QC and P-site calibration, ORF detection, translation efficiency, ribosome stalling, and initiation-site mapping (6 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "rna-quantification",
+      "source": "./rna-quantification",
+      "description": "Quantify gene and transcript expression from RNA-seq data (4 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "rna-structure",
+      "source": "./rna-structure",
+      "description": "Predict and analyze RNA secondary structures, search for non-coding RNA families, interpret experimental structure probing data, and validate conserved structures by evolutionary covariation (4 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "sequence-io",
+      "source": "./sequence-io",
+      "description": "Sequence file input/output operations using Biopython's Bio.SeqIO module (9 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "sequence-manipulation",
+      "source": "./sequence-manipulation",
+      "description": "Working with sequence data programmatically using Biopython's Bio.Seq and Bio.SeqUtils modules (7 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "single-cell",
+      "source": "./single-cell",
+      "description": "Single-cell genomics with Seurat (R) and Scanpy (Python) (17 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "small-rna-seq",
+      "source": "./small-rna-seq",
+      "description": "Analyze small RNA sequencing data across all classes - miRNA, isomiRs, tRNA-derived fragments (tRFs), piRNA, and rRNA/snoRNA-derived species - for preprocessing, discovery, quantification, differential expression, and target prediction (6 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "spatial-transcriptomics",
+      "source": "./spatial-transcriptomics",
+      "description": "Analyze spatial transcriptomics and multiplexed-imaging data while respecting the one fork that decides the whole pipeline: the platform class (12 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "structural-biology",
+      "source": "./structural-biology",
+      "description": "Protein structure analysis using Biopython's Bio.PDB module and modern prediction tools (10 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "systems-biology",
+      "source": "./systems-biology",
+      "description": "Constraint-based / genome-scale metabolic modeling: draft reconstruction from genomes, curation and gap-filling, FBA/FVA flux prediction, gene essentiality, context-specific model building, multi-species community modeling, and computational strain design (7 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "tcr-bcr-analysis",
+      "source": "./tcr-bcr-analysis",
+      "description": "Analyze T-cell receptor (TCR) and B-cell receptor (BCR) repertoires from bulk or single-cell sequencing data for immunology research, vaccine development, and cancer immunotherapy (6 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "temporal-genomics",
+      "source": "./temporal-genomics",
+      "description": "Analyze temporal patterns in omics time-series data, with the postdoc-level guardrails that make the calls trustworthy: sampling-design constraints (Nyquist floor, >=2 cycles, evenness), the multiple-testing and null-model pitfalls specific to rhythm/periodicity screens, and the causal-inference ceiling of bulk temporal networks (6 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "variant-calling",
+      "source": "./variant-calling",
+      "description": "Variant calling and VCF/BCF file manipulation (13 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "workflow-management",
+      "source": "./workflow-management",
+      "description": "Workflow engines for authoring bioinformatics pipelines (5 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "workflows",
+      "source": "./workflows",
+      "description": "End-to-end bioinformatics pipelines that orchestrate multiple skills into complete analysis workflows (41 skills)",
+      "version": "1.0.0",
+      "category": "bioinformatics",
+      "skills": [
+        "./"
+      ]
+    }
+  ]
+}

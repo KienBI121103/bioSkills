@@ -1,0 +1,32 @@
+{
+  "name": "genome-annotation",
+  "version": "1.0.0",
+  "description": "Annotate assembled genomes with repeat masking, gene prediction (prokaryotic and eukaryotic), non-coding RNA detection, functional assignment, completeness QC, and annotation transfer between assemblies (7 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./annotation-qc/",
+    "./annotation-transfer/",
+    "./eukaryotic-gene-prediction/",
+    "./functional-annotation/",
+    "./ncrna-annotation/",
+    "./prokaryotic-annotation/",
+    "./repeat-annotation/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Genome Annotation",
+    "shortDescription": "Annotate assembled genomes with repeat masking, gene prediction (prokaryotic and eukaryotic), non-coding RNA detection, ",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "population-genetics",
+  "version": "1.0.0",
+  "description": "Decision-grade population and statistical genetics from genotypes: allele-aware data management and QC, linkage disequilibrium, population structure, single-variant and rare-variant association, and selection scans (7 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./association-testing/",
+    "./linkage-disequilibrium/",
+    "./plink-basics/",
+    "./population-structure/",
+    "./rare-variant-association/",
+    "./scikit-allel-analysis/",
+    "./selection-statistics/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Population Genetics",
+    "shortDescription": "Decision-grade population and statistical genetics from genotypes: allele-aware data management and QC, linkage disequil",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

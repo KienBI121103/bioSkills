@@ -1,0 +1,34 @@
+{
+  "name": "sequence-io",
+  "version": "1.0.0",
+  "description": "Sequence file input/output operations using Biopython's Bio.SeqIO module (9 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./batch-processing/",
+    "./compressed-files/",
+    "./fastq-quality/",
+    "./filter-sequences/",
+    "./format-conversion/",
+    "./paired-end-fastq/",
+    "./read-sequences/",
+    "./sequence-statistics/",
+    "./write-sequences/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Sequence Io",
+    "shortDescription": "Sequence file input/output operations using Biopython's Bio.SeqIO module (9 skills)",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}

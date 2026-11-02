@@ -1,0 +1,31 @@
+{
+  "name": "temporal-genomics",
+  "version": "1.0.0",
+  "description": "Analyze temporal patterns in omics time-series data, with the postdoc-level guardrails that make the calls trustworthy: sampling-design constraints (Nyquist floor, >=2 cycles, evenness), the multiple-testing and null-model pitfalls specific to rhythm/periodicity screens, and the causal-inference ceiling of bulk temporal networks (6 skills)",
+  "author": {
+    "name": "GPTomics",
+    "url": "https://github.com/GPTomics/bioSkills"
+  },
+  "homepage": "https://github.com/KienBI121103/bioSkills",
+  "repository": "https://github.com/KienBI121103/bioSkills",
+  "license": "MIT",
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "skills"
+  ],
+  "skills": [
+    "./circadian-rhythms/",
+    "./differential-rhythmicity/",
+    "./periodicity-detection/",
+    "./temporal-clustering/",
+    "./temporal-grn/",
+    "./trajectory-modeling/"
+  ],
+  "interface": {
+    "displayName": "bioSkills: Temporal Genomics",
+    "shortDescription": "Analyze temporal patterns in omics time-series data, with the postdoc-level guardrails that make the calls trustworthy: ",
+    "developerName": "GPTomics",
+    "category": "Research"
+  }
+}
